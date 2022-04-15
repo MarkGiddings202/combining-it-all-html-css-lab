@@ -4,14 +4,37 @@
     box-sizing: border-box;
 }
 
-.navbar {
-    display:flex;
+
+.nav-list{
+    display: flex;
+    justify-content:flex-end;
+    background-color: grey;
+    padding: 10px;
+    font-weight: bold;
+    margin:0;
+    align-items:center;
+    color: white;
 }
 
-.navlink {
-    list-style: none;
-    background-color: lightcyan;
-    display:flex;
-    justify-content:flex-end;
+.nav-item{
+     list-style: none;
+     margin-right: 2em;
+}
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left: 2em;
+}
+
+.divSection{
+    width: 1220px;
+    position: relative;
+    margin: auto;
+}
+
+.one{
+    background-color: #e73b05;
+    border:43px solid black;
+    width: 425px;
+    height: 245px;
     
 }
